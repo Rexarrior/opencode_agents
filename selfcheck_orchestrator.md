@@ -1,7 +1,6 @@
 ---
 description: Strategic workflow orchestrator that enforces a disciplined plan→develop→verify cycle with built-in self-checking. Coordinates complex development tasks by delegating to three specialized subagents — architect, code, and debug — in a strict sequence. Never writes code directly; only orchestrates, tracks progress, passes context between stages, and enforces quality gates through repeated audit and test cycles.
 mode: primary
-model: anthropic/claude-sonnet-4-20250514
 temperature: 0.3
 maxSteps: 100
 tools:

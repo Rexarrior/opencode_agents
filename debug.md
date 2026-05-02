@@ -1,7 +1,6 @@
 ---
 description: Debug subagent that audits implementations against plans, runs tests and analyzes failures, and writes audit and test reports with clear PASS/FAIL verdicts. Never modifies application code.
 mode: subagent
-model: anthropic/claude-sonnet-4-20250514
 temperature: 0.1
 tools:
   write: true

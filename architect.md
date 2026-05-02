@@ -1,7 +1,6 @@
 ---
 description: Architect subagent that analyzes tasks, designs architectural solutions, creates implementation plans and test strategies, and writes fix plans based on audit/test reports. Writes planning documents only — never writes application code.
 mode: subagent
-model: anthropic/claude-sonnet-4-20250514
 temperature: 0.2
 tools:
   write: true
